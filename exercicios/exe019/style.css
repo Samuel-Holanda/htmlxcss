@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+     background-color: rgb(225, 225, 101);
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{ 
+    color: orangered;
+}
+
+h2{
+    color: orangered;
+
+}
+ 
+#seletor-principal {
+    background-color: orangered;
+    color: white; 
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.Básico{
+    color: #F7AE11;
+}
+
+.Intermediário{ 
+color: #D6480F;
+}
+
+.Avançado{
+color: #F73211;
+
+}

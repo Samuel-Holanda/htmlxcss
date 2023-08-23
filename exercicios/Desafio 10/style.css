@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face{
+       font-family: 'Bebas';
+       src: url(BebasNeue-Regular.ttf)
+
+}
+
+@font-face{
+       font-family: 'Android';
+       src: url(IDroid\ Bold.otf)
+
+}
+
+*{
+       margin: 0px;
+       padding: 0px;
+
+}
+
+
+body{
+       background-color: #4ae64799 ;
+       font-family: Arial, Helvetica, sans-serif;
+       
+
+}
+
+main{
+      background-color: #06e00293 ;
+      box-shadow: 2xp 3px 1px black;
+      margin: auto 150px;
+      padding: 10px;
+}
+
+div.seletor-principal{
+       background-color: #0dc0bd;
+       margin: 0px 150px 0px 150px;
+       padding: 20px;
+       padding-bottom: 40%;
+       position: relative;
+}
+
+div.seletor-principal > iframe{
+       position: absolute;
+       top: 5%;
+       left: 5%;
+       width: 90%;
+       height: 90%;
+}
+
+header{
+       background-color: #198009;
+       padding: 0px 15px 0px 25px;
+       margin:0px 0px 0px 0px ;
+       color: white;
+       font-family: "Bebas";
+       font-size: 35px;
+       text-align: center;
+
+}
+
+nav{
+       background-color: var(--cor02);
+      padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.684);
+      text-align: left;
+
+}
+
+h2{
+       background-color: wnite;
+       font-family: "Android";
+
+
+}
+
+nav > a{
+       color: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 30px;
+      transition: 0.5s;    
+
+}
+nav > a:hover{
+       background-color: white;
+       color: darkgreen;
+
+
+}
+
+aside {
+       background-color: #4FE835;
+       padding: 10px;
+       margin: auto 150px;
+       list-style-position: inside;
+}
+
+aside ul{
+       list-style-type: "\2724\00A0\00A0";
+       list-style-position: inside;
+       columns: 2;
+}
+
+aside > h2{
+       background-color: white;
+       font-family: fantasy;
+
+
+}
+
+aside > p{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 18px;
+
+}
+
+img{
+       height: 400px;
+       width: 1183px;
+
+}
+
+footer{
+        background-color: aqua;
+        margin: auto 150px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        font-family: "Bebas";
+}
+
+
+article{
+       background-color: darkgreen;
+       margin: auto 150px;
+}
+
+main > img {
+       width: 100%;
+
+}
