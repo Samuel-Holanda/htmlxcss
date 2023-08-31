@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização Vertical de Caixas</title>
+</head>
+<style>
+    #primeiro-id{
+        background-size: 100% 100%;
+
+        position: relative;
+
+        background-color: blue;
+        height: 98vh;
+        padding: 10px;
+    
+
+    }
+
+    #segundo-id{
+        background-image: url(imagens/flor03.webp);
+        background-size: 100% 100%;
+
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        background-color: yellow;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+
+    }
+
+
+
+
+</style>
+<body>
+    <section id="primeiro-id">
+        <article id="segundo-id">
+
+
+        </article>
+
+    </section>
+    
+</body>
+</html>

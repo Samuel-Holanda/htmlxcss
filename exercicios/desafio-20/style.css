@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "Destaque";
+    src: url(fontes/Anton-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Cordel";
+    src: url(fontes/Satisfy-Regular.ttf);
+}
+
+
+:root{
+    --fonte-padrão: Verdana Arial Helvetica Sans-serif;
+    --fonte-Destaque: "Destaque";
+    --fonte-Cordel: "Cordel";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    background-color: black;
+    font-family: var(--fonte-Destaque);
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    color: white;
+
+}
+header > h1{
+    font-size: 120px;
+
+
+}
+
+nav{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+
+}
+
+#primeiro-id{
+    text-align: center;
+    color: white;
+
+
+}
+
+
