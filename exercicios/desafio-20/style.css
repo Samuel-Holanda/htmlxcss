@@ -23,6 +23,7 @@
 
 }
 
+
 header{
     background-color: black;
     font-family: var(--fonte-Destaque);
@@ -33,7 +34,21 @@ header{
 }
 header > h1{
     font-size: 120px;
+    
+}
 
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color:  white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
 
 }
 
@@ -45,9 +60,71 @@ nav{
 
 }
 
+nav > p{
+    font-family: var(--fonte-padrão);
+
+
+}
+
+.classe-1 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-Cordel);
+    font-size: 1.8em;
+    
+}
+
+.classe-2 {
+    background-color: white;
+    color: black;
+    
+}
+
+.classe-3{
+    background-color: rgba(128, 128, 128, 0.71);
+    color: white;
+
+}
+
+.classe-3 > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.611);
+    border-radius: 10px;
+
+
+}
+
 #primeiro-id{
     text-align: center;
     color: white;
+
+
+}
+
+#segundo-id{
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagem/bravo.jpg.crdownload);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#terceiro-id{
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagem/jerusalém.jpg.crdownload);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
 
 
 }
