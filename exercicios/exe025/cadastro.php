@@ -1,0 +1,1 @@
+Você não aprendeu sobre PhP,estude mais para conseguir entender.
