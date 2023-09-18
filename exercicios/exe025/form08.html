@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soma de Números</title>
+</head>
+<body>
+    <h1>Soma de Números</h1>
+
+    <p>
+        <label for="in1">Número 1:</label>
+        <input type="number" name="n1" id="in1" min="1" max="50" required>
+    </p>
+    <p>
+        <label for="in2">Número 2:</label>
+        <input type="number" name="n2" id="in2" min="1" max="50" required>
+    </p>
+    
+    <!-- Botão para calcular a soma -->
+    <button onclick="calcularSoma()">Calcular Soma</button>
+
+    <!-- Local para exibir o resultado da soma -->
+    <p id="soma"></p>
+
+    <script>
+        function calcularSoma() {
+            // Obtém os valores dos campos de entrada
+            var numero1 = parseFloat(document.getElementById("in1").value);
+            var numero2 = parseFloat(document.getElementById("in2").value);
+
+            // Calcula a soma
+            var resultado = numero1 + numero2;
+
+            // Exibe o resultado na tag <p> com o id "soma"
+            document.getElementById("soma").textContent = "A soma é: " + resultado;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
