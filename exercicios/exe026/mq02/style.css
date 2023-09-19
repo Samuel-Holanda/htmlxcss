@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*Css para todos  os modelos*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;  
+}
+
+h1{
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+}

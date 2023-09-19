@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*Css para telas deitadas*/
+
+body{
+    background-image: url(../imagem/paisagem.jpg);
+    background-repeat: no-repeat;
+}
