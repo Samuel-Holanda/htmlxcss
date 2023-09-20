@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*Configurações Gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;  
+}
+
+h1{
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+}
+
+/*Configurações em Retrato*/
+
+@media screen and (orientation:portrait) {
+    body{
+    background-image: url(imagens/retrato.jpg);
+    background-repeat: no-repeat;
+}
+}  
+
+/*Configurações em Paisagem*/
+
+@media screen and (orientation: landscape) {
+    body{
+    background-image: url(imagens/paisagem.jpg);
+    background-repeat: no-repeat;
+}
+}
