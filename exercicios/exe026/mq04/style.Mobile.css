@@ -8,9 +8,7 @@
 }
 
 body{
-    background: url(imagens/back-celular100px\ 800px.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
+    background-image: url(imagens/back-celular\ 480px.jpg);
 }
 
 main{
@@ -46,3 +44,5 @@ img{
 #quarto-id{
     display: none;
 }
+
+
