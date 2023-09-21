@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.Mobile-First.css">
     <title>Menu Responsivo</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Menu Responsivo.</h1>
         <span id="primeiro-id" class="material-symbols-outlined" onclick="clickMenu()">
@@ -32,14 +33,23 @@
         </article>
     </main>
         <script>
-    function clickMenu() {
+            function mudouTamanho() {
+    var segundoId = document.getElementById('segundo-id');
+    if (window.innerWidth >= 768) {
+        segundoId.style.display = 'block';
+    } else {
+        segundoId.style.display = 'none';
+    }
+}
+
+        function clickMenu() {
         var segundoId = document.getElementById('segundo-id');
         if (segundoId.style.display === 'block') {
             segundoId.style.display = 'none';
         } else {
             segundoId.style.display = 'block';
         }
+
     }
-</script>
-</body>
-</html>
+
+ </script>
